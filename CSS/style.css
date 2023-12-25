@@ -1,0 +1,27 @@
+:root {
+    --cor-texto: #FF0000;
+    --cor-borda-texto: #109048;
+    --fonte-titulo: "Magneto";
+    --fonte-geral: "Comic Sans MS";
+}
+
+body {
+    background-image: url("https://media.tenor.com/4gPD1ccxrVgAAAAC/rick-ashley-dance.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#titulo {
+    color: var(--cor-texto);
+    -webkit-text-stroke: 2px var(--cor-borda-texto);
+    font-family: var(--fonte-titulo), var(--fonte-geral);
+    font-size: 120px;
+}
+
+#texto {
+    color: var(--cor-texto);
+    -webkit-text-stroke: 0.5px var(--cor-borda-texto);
+    font-family: var(--fonte-geral);
+    font-size: 30px;
+}
